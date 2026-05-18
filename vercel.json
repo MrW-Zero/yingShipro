@@ -1,6 +1,8 @@
 {
   "rewrites": [
     { "source": "/proxy/:path*", "destination": "/api/proxy/:path*" },
+    { "source": "/img", "destination": "/api/img" },
+    { "source": "/player-proxy", "destination": "/api/player-proxy" },
     { "source": "/s=:query", "destination": "/index.html" },
     { "source": "/player.html", "destination": "/player.html" },
     { "source": "/player.html/:path*", "destination": "/player.html" }
